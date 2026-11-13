@@ -1,0 +1,13 @@
+name: jcode
+version: 1.0.0
+description: Drive the jcode agent CLI (Rust TUI coding agent) — one-shot runs with model/provider selection, plus install/auth/config status. Ships the jcode skill.
+author: nghialele
+license: MIT
+homepage: https://github.com/nghialele/hermes-jcode
+kind: standalone
+manifest_version: 2
+platforms: [linux, macos, windows]
+tags: [coding-agent, jcode, cli, tui, delegation]
+provides_tools:
+  - jcode_run
+  - jcode_status
